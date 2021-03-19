@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "λ"
+theme = "hugo-tania"
+[params]
+titleEmoji = "🦆"
+[params.socialOptions]
+
+[[menu.header]]
+name = "Articles"
+url = "/posts/"
+
+[[menu.footer]]
+name = "RSS"
+url = "/index.xml"
+
